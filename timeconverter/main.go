@@ -5,9 +5,6 @@ import (
 	"time"
 )
 
-// 979352580
-// time.Now -- NOW(unix)
-
 func main() {
 	now := time.Now()
 	fmt.Println("current time ", now)
