@@ -1,0 +1,16 @@
+GET http://localhost:8080/books
+###
+
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "id": "5",
+  "title": "the wizard of OZ",
+  "auther": "L.Frank Baum"
+}
+###
+
+DELETE http://localhost:8080/books/2
+
+
