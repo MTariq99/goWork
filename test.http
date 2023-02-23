@@ -1,0 +1,23 @@
+GET http://localhost:8080/books
+###
+GET http://localhost:8080/books/2
+###
+POST http://localhost:8080/books
+Content-Type: "application/json"
+
+{
+    "ID":"3",
+    "Title":"testing the book",
+    "Auther":"Sameer ali khan"
+}
+###
+PUT http://localhost:8080/books/1
+Content-Type: "application/json"
+
+{
+    "Title":"updated",
+    "Auther":"programmer"
+}
+###
+
+DELETE http://localhost:8080/books/2
